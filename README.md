@@ -37,7 +37,19 @@ Users should be able to:
 
 - Solution URL: https://github.com/PersianBlue/Product-Preview-Card
 
-- Live Site URL: https://persianblue.github.io/product-preview-card/
+- Live Site URL: html {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100%;
+  background: var(--cream);
+  font-family: "Montserrat";
+}
 
 ## My process
 
